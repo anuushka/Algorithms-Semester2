@@ -51,12 +51,8 @@ int main()
     	graph[i].resize(M);
 	
     for(int i = 0; i < N; i++)
-    {
     	for(int j = 0; j < M; j++)
-    	{
     		graph[i][j] = 0;
-		}
-	}
 
     for (int i = 0; i < k; ++i)
     {

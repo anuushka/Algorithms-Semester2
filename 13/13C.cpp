@@ -18,7 +18,7 @@ vector<int> prefix_function(string s)
 
 int main()
 {
-	ifstream fin("prefix.in");
+    ifstream fin("prefix.in");
     ofstream fout("prefix.out");
 
     string s;

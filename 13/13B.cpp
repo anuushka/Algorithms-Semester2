@@ -63,18 +63,15 @@ void computeLPSArray(string pat, int M, int* lps)
   
 int main() 
 { 
-	ifstream fin("search2.in");
-	ofstream fout("search2.out");
+    ifstream fin("search2.in");
+    ofstream fout("search2.out");
     string t, p;
     fin >> p >> t;
     KMPSearch(p, t); 
     fout << ans.size() << '\n';
-	for(int i = 0; i < ans.size(); i++)
-	{
-		fout << ans[i] << " ";
-	}
-
-
+    for(int i = 0; i < ans.size(); i++)
+    {
+	fout << ans[i] << " ";
+    }
     return 0; 
 } 
-

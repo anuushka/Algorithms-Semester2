@@ -14,11 +14,11 @@ vector<int> search(string pat, string txt)
 		for(j = 0; j < M; j++) 
 		{
 			if(txt[i+j] != pat[j])
-				break;
+			   break;
 		}
 		
 		if(j == M)
-			pattern.push_back(i+1);
+		  pattern.push_back(i+1);
 	}
 	return pattern;
 }

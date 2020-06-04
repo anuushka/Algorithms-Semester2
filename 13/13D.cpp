@@ -42,7 +42,7 @@ int main()
     vector<int> prefix = prefix_function(s);
     vector<vector<int> > finite_automata(s.length(), vector<int>(limit));  
     compute_automaton(s, limit, finite_automata);
-	for (auto& row : KMP) 
+	for (auto& row : finite_automata) 
 	{
         	for (auto& i : row) {
             		cout << i << " ";

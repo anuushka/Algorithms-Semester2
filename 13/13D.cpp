@@ -37,15 +37,15 @@ int main()
 {
     int limit;
     string s;
-   	cin >> limit;
+    cin >> limit;
     cin >> s;
-	vector<int> prefix = prefix_function(s);
+    vector<int> prefix = prefix_function(s);
     vector<vector<int> > KMP(s.length(), vector<int>(limit));  
     compute_automaton(s, limit, KMP);
 	for (auto& row : KMP) 
 	{
-        for (auto& i : row) {
-            cout << i << " ";
+        	for (auto& i : row) {
+            		cout << i << " ";
         }
         cout << '\n';
     }

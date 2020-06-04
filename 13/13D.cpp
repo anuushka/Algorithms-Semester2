@@ -40,8 +40,8 @@ int main()
     cin >> limit;
     cin >> s;
     vector<int> prefix = prefix_function(s);
-    vector<vector<int> > KMP(s.length(), vector<int>(limit));  
-    compute_automaton(s, limit, KMP);
+    vector<vector<int> > finite_automata(s.length(), vector<int>(limit));  
+    compute_automaton(s, limit, finite_automata);
 	for (auto& row : KMP) 
 	{
         	for (auto& i : row) {

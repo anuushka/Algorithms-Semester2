@@ -40,7 +40,7 @@ int main()
 		}
 	}
 	
-				  	cout << "YES" << "\n"; 
-				  	return 0;
+	cout << "YES" << "\n"; 
+	return 0;
 	
 }

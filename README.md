@@ -2,4 +2,4 @@
 
 "Algorithms" section are all checked.
 
-I checked them by class tests(1-6) in semester2. It was exciting.
+I checked them by tests(1-6). It was exciting.
